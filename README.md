@@ -5,8 +5,7 @@ An always up-to-date local memory hash for Ruby and Redis
 Redis Replicated Hash is a simple Ruby library for synchronizing a local memory
 hash against a Redis server.
 
-To achieve this, Redis Replicated Hash functions as a basic Redis client that only
-implements replication.
+To achieve this, Redis replication is implemented. 
 
 ## USAGE
 
