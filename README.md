@@ -1,5 +1,4 @@
 An always up-to-date local memory hash for Ruby and Redis
----------------------------------------------------------
 
 ## DESCRIPTION
 
