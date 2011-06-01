@@ -9,6 +9,11 @@ To achieve this, Redis replication is implemented.
 
 ## USAGE
 
+Simply create an instance of RedisReplicatedHash optionally passing the
+hostname and port of the server. The third parameter is a boolean
+indicating whether the call should block until the database is fully
+loaded into memory.
+
 	require './redis-replicated-hash'
 	
 	replicated_hash = RedisReplicatedHash.new
